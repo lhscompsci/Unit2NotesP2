@@ -15,5 +15,21 @@ public class Main {
 
         int ans = dudette.multiplicator(7,9);
         out.println("the answer is " + ans);
+
+        //static methods
+        //mostly in library/helper classes
+
+        //The Math class
+
+        out.println(Math.pow(3,7));
+
+
+        // Random Numbers (RNG)  (PNG)
+        //  Math.random() ==>  [0.0, 1.0)
+
+        // range = upper - lower + 1
+        // (int)(Math.random() * range + lower)
+
+
     }
 }
