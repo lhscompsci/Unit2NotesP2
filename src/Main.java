@@ -3,8 +3,8 @@ import static java.lang.System.*;
 public class Main {
     public static void main(String[] args) {
 
-        Bug dude = new Bug();  //instantiation
-        Bug dudette = new Bug();
+        Bug dude = new Bug(35,false);  //instantiation
+        Bug dudette = new Bug(25,true);
         Bug dudekid = new Bug();
 
         dudette.speak();
@@ -12,6 +12,10 @@ public class Main {
         dudekid.speak();
         dudette.sayName();
         dude.sayName();
+
+        dude.setFly(true);
+        dudette.setSize(43);
+
 
         int ans = dudette.multiplicator(7,9);
         out.println("the answer is " + ans);
