@@ -38,5 +38,21 @@ public class Main {
         out.println("you rolled: " + d6);
 
 
+        //Strings
+        //          0123456789
+        String s = "howdy yall";
+        //stings are immutable
+
+        out.println(s.charAt(4));
+        out.println(s.length());
+        out.println(s.substring(3));    // from spot to the end
+        out.println(s.substring(3,7));          // from first up to but not including second
+        out.println(s.indexOf("owd"));
+        out.println(s.indexOf("dog"));
+        out.println(s.lastIndexOf("all"));
+        out.println(s.indexOf("y"));
+        out.println(s.lastIndexOf("y"));
+
+
     }
 }
