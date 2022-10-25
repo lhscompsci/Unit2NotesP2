@@ -41,7 +41,7 @@ public class Main {
         //Strings
         //          0123456789
         String s = "howdy yall";
-        //stings are immutable
+        //strings are immutable
 
         out.println(s.charAt(4));
         out.println(s.length());
@@ -52,6 +52,18 @@ public class Main {
         out.println(s.lastIndexOf("all"));
         out.println(s.indexOf("y"));
         out.println(s.lastIndexOf("y"));
+
+        s.toUpperCase();
+        out.println(s);
+        s = s.toUpperCase();
+        out.println(s);
+
+        String s1 = "one";
+        String s2 = "two";
+        // equals     and      compareTo
+        out.println(s1.equals(s2));
+        out.println(s1.compareTo(s2));
+        out.println(s2.compareTo(s1));
 
 
     }
